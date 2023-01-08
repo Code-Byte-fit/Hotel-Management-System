@@ -1,0 +1,48 @@
+html{
+    background: #FBF7F4;
+}
+
+.group{
+    position: fixed;
+    left:7vw;
+    top: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    width: 100%;
+    height: 5vh;
+    padding: 0 1vw;
+    padding-left: 2.7vw;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: #0d0c22;
+    transition: .3s ease;
+    box-shadow: 0 0 11px rgba(33,33,33,.4);
+   }
+   
+   .input::placeholder {
+    color: #883502;
+    opacity: 0.7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: #BE6731;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #BE6731;
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1vw;
+    fill: #BE6731;
+    width: 1.1vw;
+    height: 3vh;
+   }
+
+   .input::-webkit-search-cancel-button{
+   -webkit-appearance: none;
+   }
+
