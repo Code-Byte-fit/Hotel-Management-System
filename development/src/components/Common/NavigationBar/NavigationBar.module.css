@@ -3,7 +3,6 @@
     padding: 0;
     text-decoration: none;
     font-family: sans-serif;
-    
 }
 .navbar{
     margin:2vh 0 0 1vw;
@@ -18,26 +17,16 @@
     z-index: 2;
 }
 .navbarExpanded{
-    width: 4.5vw;
     padding-right: 10%;
-    margin:2vh 0 0 1vw;
-    height: 95vh;
-    border-radius:12px;
-    transition:0.5s ease-in-out;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
-    background: #22311E;
-    display: inline-block;
-    position: fixed;
-    z-index: 2;
 }
 
-ul{
+.navListContainer{
     height: 100%;
     display: flex;
     flex-direction: column;   
 }
 
-li{
+.navList{
     display:flex;
     justify-content: center;
     margin:25% 0 20% 0;
@@ -50,9 +39,10 @@ li{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     scale: 0.94;
  }
-img{
+.navbar img{
     width: 3vw;
-    display: inline-block;   
+    display: inline-block;  
+    
 }
 .uppericons li{
     margin:0;

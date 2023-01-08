@@ -8,15 +8,17 @@ import style from "./NavigationBar.module.css"
 function NavigationBar() {
     const [isNavExpanded,setNavExpanded]=useState(false);
     return (
-        <nav 
-        className={!isNavExpanded?style.navbar:style.navbarExpanded}
+        <span className={style.navContainer}>
+            <nav className={`${style.navbar} ${isNavExpanded && style.navbarExpanded}`}
         onClick={() =>{setNavExpanded(!isNavExpanded);}} >
-            <ul>
+            <ul className={style.navListContainer}>
                 <Icons to="#" name={logo}/>
                 <Uppericons/>
                 <Lowericons/>
             </ul>
         </nav>
+        </span>
+        
     )
 }
 

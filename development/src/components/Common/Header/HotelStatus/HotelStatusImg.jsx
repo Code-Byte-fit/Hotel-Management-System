@@ -5,8 +5,11 @@ import style from "./HotelStatus.module.css"
 function HotelStatusImg(props){
     return (
         <>
-            <img src={statusImg} className={style.statusImg}/>
-            <img src={statusColor} className={style.statusCircle}/>
+        <span className={style.img}>
+        <img src={statusImg} className={style.statusImg}/>
+        <img src={statusColor} className={style.statusCircle}/>
+        </span>
+            
         </>
     )
 }

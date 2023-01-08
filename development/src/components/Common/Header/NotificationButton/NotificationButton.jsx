@@ -7,8 +7,8 @@ function NotificationButton() {
     const [isClicked, setClicked] = useState(false);
     return (
         <>
-            <button onClick={() => { setClicked(!isClicked)}} 
-            className={isClicked && style.clickedNotification}>
+            <button  onClick={() => { setClicked(!isClicked)}} 
+            className={`${style.button} ${isClicked && style.clickedNotification}`}>
                 <img src={!isClicked?notificationGreen:notificationWhite} />
             </button>
         </>

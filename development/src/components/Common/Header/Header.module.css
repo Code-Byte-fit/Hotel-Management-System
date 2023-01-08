@@ -1,0 +1,12 @@
+.header{
+    position: fixed;
+    display:flex ;
+    width: 30vw;
+    height: 15vh;
+    right: -1vw;
+    scale: 0.9;
+}
+
+html{
+    background: #FBF7F4;
+}
