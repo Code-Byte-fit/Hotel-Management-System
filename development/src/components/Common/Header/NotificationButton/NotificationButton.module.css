@@ -1,18 +1,20 @@
 
-button{
-    position: fixed;
+.button{
+    position: absolute;
     background: #FFFFFF;
     border-radius:12px;
-    top: 4.5vh;
-    left: 96.5vw;
     border: none;
-    padding: 1vh 0.5vh 0.5vh 1vh;
+    height: 6vh;
+    padding: 0 0.3vw 0 0.3vw;
+    top: 4vh;
+    right: 0;
+
     box-shadow: 0 0 11px rgba(33,33,33,.4);
     cursor: pointer;
-    scale: 0.8;
+    
 }
 
-button img{
+.button img{
     width: 2vw;
     height: 4vh;
 }

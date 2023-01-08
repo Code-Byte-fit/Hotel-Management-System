@@ -1,27 +1,39 @@
 .statusImg{
-    position: fixed;
-    right:20vw;
-    top: 3.8vh;
-    scale: 0.7;
+    position: relative;
+    height: 5vh;
+    width: 2vw;
+    top: 4vh;
+    left: 7.4vw;
+
+}
+.img{
+    position: relative;
 }
 .statusCircle{
-    position: fixed;
-    right: 19vw;
-    top: 2.2vh;
-    scale: 0.4;
+    position: relative;
+    height: 3vh;
+    width: 1vw;
+    top: 1.7vh;
+    left: 6.6vw;
+    
+}
+.text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 3.9vh;
+    left: 1vw;
 }
 .statusWord{
-    position: fixed;
-    right: 23vw;
-    top: 5vh;
+    position: relative;
     font-size: smaller;
     color: #999999;
+    left: 0.2vw;
 }
 
 .status{
-    position: fixed;
-    right: 23.5vw;
-    top: 7.8vh;
+    position: relative;
+   
     font-size: large;
     color: #6AA420;
 }

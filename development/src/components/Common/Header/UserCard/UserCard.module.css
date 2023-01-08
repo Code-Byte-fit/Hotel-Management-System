@@ -1,20 +1,22 @@
 .button{
-    position: fixed;
-    left: 79.5vw;
-    top: 2vh;
+    position: absolute;
     background: #FFFFFF;
     border-radius:12px;
     box-shadow: 0 0 11px rgba(33,33,33,.4);
-    width: 18vw;
-    height: 11vh;
+    height: 10.5vh;
+    right: 3vw;
+    top: 2vh;
+    width: 17vw;
+    border: none;
     display: flex;
     cursor: pointer;
-    scale: 0.85;
+    
 }
 .avatarContainer{
     position: relative;
-    top: 0.5vh;
-    left: 0.3vw;
+    top: 0.9vh;
+    left: 0.5vw;
+    
 }
 .avatar{
     position: relative;
@@ -24,8 +26,8 @@
 }
 .text{
     position: relative;
+    left: 1vw;
     top: 2vh;
-    left: 1.5vw;
     display: flex;
     flex-direction: column;
     
