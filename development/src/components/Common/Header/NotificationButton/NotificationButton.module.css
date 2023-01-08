@@ -1,0 +1,22 @@
+
+button{
+    position: fixed;
+    background: #FFFFFF;
+    border-radius:12px;
+    top: 4.5vh;
+    left: 96.5vw;
+    border: none;
+    padding: 1vh 0.5vh 0.5vh 1vh;
+    box-shadow: 0 0 11px rgba(33,33,33,.4);
+    cursor: pointer;
+    scale: 0.8;
+}
+
+button img{
+    width: 2vw;
+    height: 4vh;
+}
+
+.clickedNotification{
+    background: #22311E;
+}

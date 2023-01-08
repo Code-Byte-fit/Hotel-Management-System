@@ -1,0 +1,27 @@
+.statusImg{
+    position: fixed;
+    right:20vw;
+    top: 3.8vh;
+    scale: 0.7;
+}
+.statusCircle{
+    position: fixed;
+    right: 19vw;
+    top: 2.2vh;
+    scale: 0.4;
+}
+.statusWord{
+    position: fixed;
+    right: 23vw;
+    top: 5vh;
+    font-size: smaller;
+    color: #999999;
+}
+
+.status{
+    position: fixed;
+    right: 23.5vw;
+    top: 7.8vh;
+    font-size: large;
+    color: #6AA420;
+}
