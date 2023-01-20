@@ -1,10 +1,17 @@
-import React from "react";
+import React ,{ useState }from "react";
 import addIcon from "../../../Images/add.png"
 import editIcon from "../../../Images/edit.png"
 import filterIcon from "../../../Images/filter.png"
 import Button from "../../Common/Button/Button";
+import Filter from "./Filter/Filter";
 import style from "../ReservationTab.module.css"
 function ReservationsTableHeader(){
+    const [selected, setSelected] = useState({
+        today:true,
+        tommorow:false
+    });
+    
+   
     return (
         <>
         <div className={style.reservationsTableHeader}>
@@ -12,10 +19,10 @@ function ReservationsTableHeader(){
             <img src={addIcon} className={style.buttonIcon}/>
             <img src={editIcon} className={style.buttonIcon}/>
             <div className={style.rightContainer}>
-                <img src={filterIcon} className={style.buttonIcon}/>
+                <Filter/>
                 <span className={style.day}>
-                    <Button text="today" curve="left" selected="true"/>
-                    <Button text="tommorow" curve="right"/>
+                    <Button text="today"  curve="left" selected={selected.today} onClick={()=>{setSelected({today:true,tommorow:false})}}/>
+                    <Button text="tommorow" curve="right" selected={selected.tommorow} onClick={()=>{setSelected({today:false,tommorow:true})}}/>
                 </span>
                 
             </div>

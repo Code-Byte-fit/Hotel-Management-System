@@ -8,7 +8,7 @@
 }
 
 .dateContainer{
-    width: 12.5vw;
+    width: 13.2vw;
     position: relative;
     display: flex;
     align-items: center;
@@ -18,6 +18,7 @@
 
 .currentDate{
     font-size: larger;
+    margin: 0 0 0 0.3vw;
 }
 
 .statCardContainer{
@@ -85,24 +86,77 @@
 
 .reservationTab{
     background: #FCFBFF;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
-    border-radius: 12px;
-    margin: 3vh 0 1vh 1vw;
+    border-radius: 12px 12px 0 0;
+    margin:0 0 1vh 0;
     border-collapse: collapse;
     text-align: center;
     padding-bottom: 2vh;
+    min-width: 90vw;
+    position: relative;
 }
+.tableContainer{
+    height: 44.3vh;
+    margin: 1.5vh 0 0 1vw;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+    overflow-y: auto;
+    background: #F5F5F5;
+    width: 90vw;
+}
+
+.tableContainer::-webkit-scrollbar{
+    width: 0.2vw;
+    background-color: #F5F5F5;
+    position: relative;
+    
+}
+.tableContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background-color: #F5F5F5;
+  }
+  .tableContainer::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+  }
+.sortIcon{
+    width: 0.6vw;
+    margin-left: 0.4vw;
+}
+
+
+ 
 .reservationTab th,td{
-    padding: 1vh 2vw 2vh 2vw;
+    padding: 1vh 1.2vw 2vh 2vw;
 }
+.reservationTab thead{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.044);
+}
+
 .reservationTab  th{
     font-size: 0.7rem;
     font-weight: 900;
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    background-color: white;
 }
 .reservationTab td{
     font-size: 0.8rem;
 }
 
 .reservationTab tr:nth-child(even){
-    background-color: #eee1e1;
+    background-color: #efeded;
+}
+
+.viewMore{
+    position: relative;
+    display: inline-block;
+    border-radius: 0 0 12px 12px;
+    margin:0vh 0 0 1vw ;
+    padding:1vh 2vw 1vh 82vw;
+    background: #FCFBFF;;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    
 }

@@ -9,9 +9,13 @@ function Button(props){
             return style.rightCurved;
         }
     }
+   const add=props.addClass;
+   function f(){
+    return style.add;
+   }
     return(
         <>
-            <button className={`${style.defaultButton} ${curve()} ${props.selected && style.selected}`}>{props.text}</button>
+            <button onClick={props.onClick} className={`${style.defaultButton} ${curve()}  ${props.selected && style.selected}`}>{props.text}</button>
         </>
     );
 }
