@@ -1,12 +1,23 @@
 .header{
+    background:#FFFFFF;
     position: fixed;
-    display:flex ;
-    width: 30vw;
-    height: 15vh;
-    right: -2vw;
-    scale: 0.8;
+    right: 1vw;
+    margin: 1.5vh 0 0 0;
+    padding: 0 0 1vh 0;
+    width: 92vw;
+    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.06);
 }
 
-html{
-    background: #FBF7F4;
+.headerTop{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 5vh;
+    padding: 1vh 0 1vh 0;
 }
+
+.line{
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+

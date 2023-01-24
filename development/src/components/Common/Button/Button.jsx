@@ -15,7 +15,7 @@ function Button(props){
    }
     return(
         <>
-            <button onClick={props.onClick} className={`${style.defaultButton} ${curve()}  ${props.selected && style.selected}`}>{props.text}</button>
+            <button onClick={props.onClick} className={`${style.defaultButton} ${curve()}  ${props.selected && style.selected} ${props.clicked && style.clicked}`}>{props.text}</button>
         </>
     );
 }

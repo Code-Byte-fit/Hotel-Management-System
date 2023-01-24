@@ -3,8 +3,8 @@ import ReservationTab  from "./Screens/ReservationTab";
 
 function App() {
     return (<>
-            <ReservationTab/>
-        </>)
+         <ReservationTab/>     
+    </>)
 }
 
 export default App;

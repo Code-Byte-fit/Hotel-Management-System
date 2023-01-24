@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Header/Header";
-import NavigationBar from "./NavigationBar/Navigationbar"
-import SearchBar from "./SearchBar/SearchBar"
-function Common(){
+import style from "./common.module.css"
+function Common(props){
     return(
         <>
-            <NavigationBar/>
-            <SearchBar/>
             <Header/>
+            <div className={style.content}>
+                {props.children}
+            </div>
         </>
     )
 }
