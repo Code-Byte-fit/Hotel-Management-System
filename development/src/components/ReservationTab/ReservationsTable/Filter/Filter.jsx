@@ -4,7 +4,7 @@ import 'reactjs-popup/dist/index.css';
 import filterIcon from "../../../../Images/filter.png"
 import FilterInput from './FilterInput';
 import Button from "../../../Common/Button/Button"
-import style from "./filter.module.css"
+import style from "./Filter.module.css"
 
 const contentStyle = { background: '#ffff',width:'43vw',position:'relative',bottom:'5vh',left:'2vw' };
 const overlayStyle = { background: 'rgba(0,0,0,0.5)' };

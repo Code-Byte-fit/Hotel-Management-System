@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./searchbar.module.css"
+import style from "./Searchbar.module.css"
 function SearchBar() {
     return (
         <div class={style.group}>

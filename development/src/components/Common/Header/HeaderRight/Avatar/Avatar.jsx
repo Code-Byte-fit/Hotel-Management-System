@@ -1,6 +1,6 @@
 import React from 'react'
 import userIcon from "../../../../../Images/DP2.png"
-import style from "./avatar.module.css"
+import style from "./Avatar.module.css"
 
 export default function Avatar(props) {
   return (

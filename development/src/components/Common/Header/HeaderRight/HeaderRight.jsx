@@ -1,7 +1,7 @@
 import React from 'react'
 import Notification from './Notification/Notification'
 import Avatar from './Avatar/Avatar'
-import style from "./headerRight.module.css"
+import style from "./HeaderRight.module.css"
 
 export default function HeaderRight() {
   return (
