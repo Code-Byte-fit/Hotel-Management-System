@@ -1,5 +1,5 @@
 import React from "react";
-import ReservationTab  from "./Screens/ReservationTab";
+import Common from "./components/Common/Common";
 
 function App() {
     return (<>
