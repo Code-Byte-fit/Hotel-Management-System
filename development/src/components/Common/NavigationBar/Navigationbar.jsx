@@ -12,7 +12,7 @@ function NavigationBar(props) {
             <nav className={`${style.navbar} ${isNavExpanded && style.navbarExpanded}`}
         onClick={() =>{setNavExpanded(!isNavExpanded);}} >
             <ul className={style.navListContainer}>
-                <Icons to="#" name={logo}/>
+                <Icons to="/" name={logo}/>
                 <Uppericons>{props.children}</Uppericons>
                 <Lowericons/>
             </ul>

@@ -5,7 +5,7 @@ import calender from "../../../Images/calender.png"
 import style from "./NavigationBar.module.css"
 function Uppericons(props){
     return (<div className={style.uppericons}>
-    <Icons to="#" name={dashboardicon}/>
+    <Icons to="/reservationTab" name={dashboardicon}/>
     <Icons to="#" name={calender}/>
     {props.children}
 </div>)
