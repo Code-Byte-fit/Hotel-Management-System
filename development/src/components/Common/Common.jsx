@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header/Header";
-import style from "./common.module.css"
+import style from "./Common.module.css"
 function Common(props){
     return(
         <>
