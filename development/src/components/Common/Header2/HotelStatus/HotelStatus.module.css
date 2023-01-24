@@ -23,6 +23,7 @@
     flex-direction: column;
     top: 3.9vh;
     left: 1vw;
+    
 }
 .statusWord{
     position: relative;
@@ -33,7 +34,6 @@
 
 .status{
     position: relative;
-   
     font-size: large;
     color: #6AA420;
 }

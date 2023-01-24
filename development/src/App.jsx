@@ -3,8 +3,8 @@ import Common from "./components/Common/Common";
 
 function App() {
     return (<>
-            <Common/>
-        </>)
+         <ReservationTab/>     
+    </>)
 }
 
 export default App;

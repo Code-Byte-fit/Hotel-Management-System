@@ -1,22 +1,21 @@
 
 .group{
-    position: fixed;
-    left:7vw;
-    top: 3vh;
     display: flex;
     align-items: center;
+    width: 30vw;
+    margin: 0 0 0 1vw;
+    
 }
 
 .input {
     width: 100%;
     height: 5vh;
-    padding: 0 1vw;
-    padding-left: 2.7vw;
-    border: 2px solid transparent;
+    background: #EEE8DD;
+    padding: 0 1vw 0 2.7vw;
+    border: none;
     border-radius: 8px;
     color: #0d0c22;
     transition: .3s ease;
-    box-shadow: 0 0 11px rgba(33,33,33,.4);
    }
    
    .input::placeholder {
@@ -27,13 +26,12 @@
    .input:focus, .input:hover {
     outline: none;
     border-color: #BE6731;
-    background-color: #fff;
     box-shadow: 0 0 0 1px #BE6731;
    }
    
    .icon {
     position: absolute;
-    left: 1vw;
+    left: 2vw;
     fill: #BE6731;
     width: 1.1vw;
     height: 3vh;
