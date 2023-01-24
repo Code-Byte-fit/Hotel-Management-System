@@ -9,11 +9,6 @@ import ReservationTable from "../components/ReservationTab/ReservationsTable/Res
 import style from "../components/ReservationTab/ReservationTab.module.css"
 function ReservationTab() {
     return (<>
-        <NavigationBar>
-            <Icons to="#" name={clipboard}/>
-            <Icons to="#" name={clipboard}/>
-            
-        </NavigationBar>
         <Common>
             <CurrentDate />
             <div className={style.statCardContainer}>
