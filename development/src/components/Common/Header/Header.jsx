@@ -1,7 +1,7 @@
 import React from 'react'
 import SearchBar from './SearchBar/SearchBar'
 import HeaderRight from './HeaderRight/HeaderRight'
-import style from "./header.module.css"
+import style from "./Header.module.css"
 
 export default function Header() {
   return (

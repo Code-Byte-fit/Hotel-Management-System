@@ -1,7 +1,7 @@
 import React from 'react'
 import notificationIcon from "../../../../../Images/notification.png"
 import Popup from 'reactjs-popup'
-import style from "./notification.module.css"
+import style from "./Notification.module.css"
 
 export default function Notification() {
   return (
