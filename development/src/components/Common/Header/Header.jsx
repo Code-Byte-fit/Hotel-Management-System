@@ -1,18 +1,21 @@
-import React from "react";
-import HotelStatus from "./HotelStatus/HotelStatus";
-import NotificationButton from "./NotificationButton/NotificationButton";
-import UserCard from "./UserCard/UserCard";
+import React from 'react'
+import SearchBar from './SearchBar/SearchBar'
+import HeaderRight from './HeaderRight/HeaderRight'
 import style from "./Header.module.css"
-function Header(){
-    return(
-        <>
-        <div className={style.header}>
-            <HotelStatus/>
-            <UserCard name="Shamly Shanawaz" position="Receptionist"/>
-            <NotificationButton/>
+
+export default function Header() {
+  return (
+    <>
+    <div className={style.header}>
+       <div className={style.headerTop}>
+          <SearchBar/>
+          <HeaderRight/>
         </div>
-        </>
-    )
+        <hr className={style.line}/>
+    </div>
+        
+    </>
+  )
 }
 
-export default Header;
+

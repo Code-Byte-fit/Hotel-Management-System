@@ -1,0 +1,154 @@
+
+.dateContainer{
+    width: 13.2vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.currentDate{
+    font-size: larger;
+    margin: 0 0 0 0.3vw;
+}
+
+.statCardContainer{
+    
+    display: flex;
+    margin: 2vh 1vw 2vh 15vw;
+}
+.statCard{
+    background: #FCFBFF;
+    border: none;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.06);
+    border-radius: 12px;
+    margin: 0vh 1.5vw 0vh 0vw;
+    cursor: pointer;
+}
+.statLabel{
+    font-size:1.3rem;
+    align-self:flex-end;
+    margin:0 1vw 1vh 0.5vw;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.statCount{
+    margin:0 1vw 0vh auto;
+    font-size:4rem;
+    align-self:flex-end;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.reservationTableContainer{
+    margin:7vh 0vw 0.5vh 0vw;
+}
+
+.reservationsTableHeader{
+    display: flex;
+    
+}
+
+.tableHeading{
+    font-size: 1.3rem;
+    margin: 0 0.5vw 0 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttonIcon{
+    height:4vh;
+    margin:0 0.2vw 0 0;
+    cursor: pointer;
+}
+
+.rightContainer{
+    margin-left: auto;
+    
+}
+
+.day{
+    position: relative;
+    bottom: 1.2vh;
+    margin: 0 0 0 0.5vw;
+}
+
+.reservationTab{
+    background: #FCFBFF;
+    border-radius: 12px 12px 0 0;
+    margin:0 0 1vh 0;
+    border-collapse: collapse;
+    text-align: center;
+    padding-bottom: 2vh;
+    min-width: 90vw;
+    position: relative;
+}
+.tableContainer{
+    height: 44.3vh;
+    margin: 1.5vh 0 0 1vw;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+    overflow-y: auto;
+    background: #F5F5F5;
+    width: 90vw;
+}
+
+.tableContainer::-webkit-scrollbar{
+    width: 0.2vw;
+    background-color: #F5F5F5;
+    position: relative;
+    
+}
+.tableContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background-color: #F5F5F5;
+  }
+  .tableContainer::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+  }
+.sortIcon{
+    width: 0.6vw;
+    margin-left: 0.4vw;
+}
+
+
+ 
+.reservationTab th,td{
+    padding: 1vh 1.2vw 2vh 2vw;
+}
+.reservationTab thead{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.044);
+}
+
+.reservationTab  th{
+    font-size: 0.7rem;
+    font-weight: 900;
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    background-color: white;
+}
+.reservationTab td{
+    font-size: 0.8rem;
+}
+
+.reservationTab tr:nth-child(even){
+    background-color: #efeded;
+}
+
+.viewMore{
+    position: relative;
+    display: inline-block;
+    border-radius: 0 0 12px 12px;
+    margin:0vh 0 0 1vw ;
+    padding:1vh 2vw 1vh 82vw;
+    background: #FCFBFF;;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.06);
+    
+}

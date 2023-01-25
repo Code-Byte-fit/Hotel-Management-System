@@ -25,3 +25,17 @@ export default function App() {
         </div>
     )
 }
+
+
+
+const Root=()=>{
+    return(
+        <>
+        <NavigationBar/>
+        <div><Outlet/></div>
+        </>
+    )
+}
+
+
+

@@ -5,15 +5,15 @@ import Uppericons from "./UpperIcons";
 import Lowericons from "./LowerIcons";
 import style from "./NavigationBar.module.css"
 
-function NavigationBar() {
+function NavigationBar(props) {
     const [isNavExpanded,setNavExpanded]=useState(false);
     return (
         <span className={style.navContainer}>
             <nav className={`${style.navbar} ${isNavExpanded && style.navbarExpanded}`}
         onClick={() =>{setNavExpanded(!isNavExpanded);}} >
             <ul className={style.navListContainer}>
-                <Icons to="#" name={logo}/>
-                <Uppericons/>
+                <Icons to="/" name={logo}/>
+                <Uppericons>{props.children}</Uppericons>
                 <Lowericons/>
             </ul>
         </nav>

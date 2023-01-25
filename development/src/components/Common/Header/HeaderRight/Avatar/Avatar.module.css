@@ -1,0 +1,14 @@
+.userIcon{
+    height: 6vh; 
+    width: 3vw;
+    border-radius: 50%;
+    margin: 0 1vw;
+}
+
+.userDetails{
+    display: grid;
+}
+
+.userRole{
+    color: #B8B8B8;
+}
