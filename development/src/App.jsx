@@ -3,6 +3,8 @@ import { createBrowserRouter,createRoutesFromElements,Route,Link,RouterProvider,
 import NavigationBar from "./components/Common/NavigationBar/Navigationbar";
 import ReservationTab  from "./Screens/ReservationTab";
 import Minibar from "./Screens/Minibar";
+import Rooms from "./Screens/Rooms";
+import Promotion from "./Screens/Promotion"
 
 export default function App() {
     const router=createBrowserRouter(
@@ -10,6 +12,8 @@ export default function App() {
             <Route path="/" element={<Root/>}>
                 <Route path="/reservationTab" element={<ReservationTab/>}/>
                 <Route path="/miniBar" element={<Minibar/>}/>
+                <Route path="/rooms" element={<Rooms/>}/>
+                <Route path="/promotion" element={<Promotion/>}/>
             </Route>
         )
     )
@@ -21,6 +25,7 @@ export default function App() {
         </div>
     )
 }
+
 
 
 const Root=()=>{
